@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    
+
+}
+h1 {
+    margin-top: 0;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 5.62rem;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.skill-row {
+    
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+
+
+a {
+    color: #11999e;
+    font-family:'Montserrat', sans-serif ;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+p {
+    font-family: 'Merriweather', serif;
+}
+
+.topcontainer {
+    background-color: rgb(233, 249, 250);
+    position: relative;
+    padding-top: 100px;
+    /*height: 200px;
+    width: 200px;
+    padding: 0;
+    padding-top: 0px;
+    border: solid 10px;
+    margin-left: 0px;*/
+}
+.middle-container {
+    margin: 100px 0;
+    
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    
+}
+.bottomcloud {
+    position: absolute;
+    left: 176px;
+    bottom: 252px;
+    
+}
+.topcloud {
+    position: absolute;
+    right: 128px;
+    top: 50px;
+}
+
+/* Hobbies*/
+
+.hobbies {
+    padding-top: 20px;
+}
+
+/* -------- Images -------*/
+.read {
+    width: 15%;
+    float: right;
+    margin-right: 75px;
+    margin-top: 6px;
+}
+
+.learn {
+    margin-top: 0px;
+    width: 15%;
+    float: left;
+    margin-right: 16px;
+}
+
+.chess {
+    width: 15%;
+    float: right;
+    margin-right: 75px;
+    margin-top: 6px;
+}
+/* ------------------ */
+.picture {
+    width: 25%;
+}
+
+.intro {
+ margin-top: -19px;
+ width: 30%;
+ margin: auto;
+}
+
+.contact {
+    margin-top: -19px;
+    width: 40%;
+    margin: 40px auto 60px;  
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.copyright {
+    color: #eaf6f6;
+    padding: 20px 0;
+}
+
+/* Subjects*/
+#carouselExample {
+    background-color: rgb(233, 249, 250);
+}
+
+.testimonial-image {
+    width: 31.5%;
+}
+
+.button {
+    background-color: rgb(71,172,148);
+}
+.arrow {
+    color: #3cb0fd;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.mb-12 {
+    margin-left: 186px;
+}
+
+.col-sm-4 {
+    width: 374px;
+}
+
+.card-body {
+    height: 18rem;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+.star2 {
+    padding-top: 30px;
+}
+
+.card:hover {
+   background-color: rgb(233, 249, 250);
+}
+/*@media only screen and (max-width: 1000px) {
+    .col-sm-4 {
+        width: 100%;
+    }
+    .mb-sm-0 {
+        margin-left: 0%;
+    }
+}*/
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      margin-left: 0%;
+    }
+  }
