@@ -65,7 +65,7 @@ p {
 .topcontainer {
     background-color: rgb(233, 249, 250);
     position: relative;
-    padding-top: 100px;
+    padding-top: 0px;
     /*height: 200px;
     width: 200px;
     padding: 0;
@@ -92,6 +92,18 @@ p {
     position: absolute;
     right: 128px;
     top: 50px;
+}
+
+.collapse{
+    position:default;
+    right: 128px;
+}
+
+.navbar-brand {
+    font-family:'Sacramento', cursive;
+    font-size: 55px;
+    font-style: bold;
+    color: rgba(62,156,135,255);
 }
 
 .nav-link {
