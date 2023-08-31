@@ -1,0 +1,53 @@
+body {
+    text-align: center !important;
+}
+
+.btn {
+padding-top: .50rem; 
+padding-left: .50rem; 
+font-size: .80rem; 
+border-radius: 1.5rem;
+width: 37.6px ;
+height: 45px;
+--bs-btn-color: red;
+}
+
+
+.container {
+    margin: 2px;
+}
+
+.frame {
+    background-color: green;
+    width: 15rem !important;
+    height: 28;
+    padding-bottom: 1%;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    
+}
+.input {
+    margin: 10px;
+}
+
+
+
+/* @media only screen and (max-width: 500px) {
+    .frame {
+        background-color: green;
+        width: 49% !important;
+        height: 28;
+        padding-bottom: 3%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+} */
+
+
+@media only screen and (min-width: 701px) and (max-width:980px) {
+
+}
+
+@media only screen and (min-width: 501px) and (max-width:700px) {
+
+}
