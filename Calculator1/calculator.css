@@ -9,7 +9,6 @@ font-size: .80rem;
 border-radius: 1.5rem;
 width: 37.6px ;
 height: 45px;
---bs-btn-color: red;
 }
 
 
@@ -65,9 +64,9 @@ button {
     box-shadow: 0px 0px 4px 0px rgba(20,12,5,0.45) inset;
 }
 
-.color div {
+/* .colour div {
     margin: 10px;
-}
+} */
 
 .hisdiv {
     background-color: red;
@@ -93,6 +92,10 @@ button {
     justify-content: space-evenly !important;
     margin-top: 5%;
 
+}
+p {
+    position: relative;
+    top: 50%;
 }
 
 
